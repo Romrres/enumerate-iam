@@ -2,7 +2,12 @@
 import argparse
 
 from enumerate_iam.main import enumerate_iam
+from enumerate_iam.main import enumerate_iam
 
+enumerate_iam(access_key,
+              secret_key,
+              session_token,
+              region)
 
 def main():
     parser = argparse.ArgumentParser(description='Enumerate IAM permissions')
